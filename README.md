@@ -1,5 +1,5 @@
 # QueryBuilder
-A tool to easily generate simple SQL queries. The built-in query builder for the [Infinite-Simple-ORM](https://github.com/maleeshagimshan98/infinite-simple-orm)
+A tool to easily generate simple SQL queries. The built-in query builder for my ORM project [Infinite-Simple-ORM](https://github.com/maleeshagimshan98/infinite-simple-orm)
 
 ## About
 The QueryBuilder is a PHP class that provides a set of methods for building SQL queries. This class supports building queries for CRUD Operations as well as adding conditions, limits, and offsets to the queries. Additionally, the class supports joining tables and ordering and grouping data.
