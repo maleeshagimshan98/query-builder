@@ -1,5 +1,5 @@
 # QueryBuilder
-A tool to easily generate simple SQL queries.
+A tool to easily generate simple SQL queries. The built-in query builder for the [Infinite-Simple-ORM](https://github.com/maleeshagimshan98/infinite-simple-orm)
 
 ## About
 The QueryBuilder is a PHP class that provides a set of methods for building SQL queries. This class supports building queries for CRUD Operations as well as adding conditions, limits, and offsets to the queries. Additionally, the class supports joining tables and ordering and grouping data.
@@ -32,15 +32,15 @@ $builder = new QueryBuilder();
 
 Here are key methods of the class:
 
-`from(string $table)` : Sets the table to select data from.
-`select(array $columns = null)` : Adds columns to select data from. If no columns are specified, all columns are selected.
-`where(array $condition)` : Adds a where condition to the query.
-`leftJoin(string $tableName, array $condition)` : Adds a left join with another table.
-`orderBy(string $column, string $type = "ASC")` : Adds an order by clause to the query.
-`limit(string $limit, string $offset)` : Sets the limit and offset of the result.
-`insert(string $table, array $values)` : Builds an insert query.
-`update(string $table, array $values, array $condition = [])` : Builds an update query.
-`delete(string $table, array $condition = [])` : Builds a delete query.
+- `from(string $table)` : Sets the table to select data from.
+- `select(array $columns = null)` : Adds columns to select data from. If no columns are specified, all columns are selected.
+- `where(array $condition)` : Adds a where condition to the query.
+- `leftJoin(string $tableName, array $condition)` : Adds a left join with another table.
+- `orderBy(string $column, string $type = "ASC")` : Adds an order by clause to the query.
+- `limit(string $limit, string $offset)` : Sets the limit and offset of the result.
+- `insert(string $table, array $values)` : Builds an insert query.
+- `update(string $table, array $values, array $condition = [])` : Builds an update query.
+- `delete(string $table, array $condition = [])` : Builds a delete query.
 
 
 ## SELECT
